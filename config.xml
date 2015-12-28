@@ -15,6 +15,10 @@
     <allow-navigation href="*" />
     <allow-intent href="*" />
     
+    <feature name="http://api.phonegap.com/1.0/device" />
+	<feature name="http://api.phonegap.com/1.0/network" />
+	<feature name="http://api.phonegap.com/1.0/file" />
+    
     <preference name="Fullscreen" value="false" />
     <preference name="Orientation" value="default" />
     <preference name="SplashScreen" value="splash" />
@@ -52,6 +56,7 @@
         <splash qualifier="land-xhdpi" src="res/android/splash/drawable-land-xhdpi-screen.png" />
         <splash qualifier="land-xxhdpi" src="res/android/splash/drawable-land-xxhdpi-screen.png" />
         <splash qualifier="land-xxxhdpi" src="res/android/splash/drawable-land-xxxhdpi-screen.png" />
+        
         <splash qualifier="port-ldpi" src="res/android/splash/drawable-port-ldpi-screen.png" />
         <splash qualifier="port-mdpi" src="res/android/splash/drawable-port-mdpi-screen.png" />
         <splash qualifier="port-hdpi" src="res/android/splash/drawable-port-hdpi-screen.png" />
